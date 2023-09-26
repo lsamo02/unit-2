@@ -6,12 +6,12 @@ var map;
 function createMap(){
     //create the map
     map = L.map('map', {
-        center: [20, 0],
-        zoom: 2
+        center: [43, -110],
+        zoom: 3
     });
 
     //add OSM base tilelayer
-    L.tileLayer.provider('Stadia.StamenTerrainBackground').addTo(map);
+    L.tileLayer.provider('Stadia.StamenTerrain').addTo(map);
 
     //call getData function
     getData();
@@ -27,6 +27,7 @@ function onEachFeature(feature, layer) {
         }
         layer.bindPopup(popupContent);
     };
+
 };
 //function to retrieve the data and place it on the map
 function getData(){
