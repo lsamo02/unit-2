@@ -7,14 +7,13 @@
                 "coordinates":[-68.27381076599994,44.342927028000076]},
             "properties":{
                 "Park_Name":"Acadia NP",
-                "Visitation_2022":3970260,
-                "Visitation_2020":2669034,
-                "Visitation_2010":2504208,
-                "Visitation_2000":2469238,
-                "Visitation_1990":2339591,
-                "Visitation_1980":2779666,
+                "Visitation_1960":1638200,
                 "Visitation_1970":2776300,
-                "Visitation_1960":1638200}
+                "Visitation_1980":2779666,
+                "Visitation_1990":2339591,
+                "Visitation_2000":2469238,
+                "Visitation_2010":2504208,
+                "Visitation_2020":2669034}
         },
         {
             "type":"Feature","id":0,
@@ -22,14 +21,13 @@
                 "coordinates":[-109.59373525999996,38.751211400000045]},
             "properties":{
                 "Park_Name":"Arches NP",
-                "Visitation_2022":1460652,
-                "Visitation_2020":1238083,
-                "Visitation_2010":1014405,
-                "Visitation_2000":786429,
-                "Visitation_1990":620719,
-                "Visitation_1980":290519,
+                "Visitation_1960":71600,
                 "Visitation_1970":178500,
-                "Visitation_1960":71600}
+                "Visitation_1980":290519,
+                "Visitation_1990":620719,
+                "Visitation_2000":786429,
+                "Visitation_2010":1014405,
+                "Visitation_2020":1238083}
         },
         {
             "type":"Feature","id":0,
@@ -37,14 +35,13 @@
                 "coordinates":[-102.33950262599996,43.867833649000033]},   
             "properties":{
                 "Park_Name":"Badlands NP",
-                "Visitation_2022":1006809,
-                "Visitation_2020":916932,
-                "Visitation_2010":977778,
-                "Visitation_2000":1105824,
-                "Visitation_1990":1326475,
-                "Visitation_1980":952652,
+                "Visitation_1960":878600,
                 "Visitation_1970":1303100,
-                "Visitation_1960":878600}
+                "Visitation_1980":952652,
+                "Visitation_1990":1326475,
+                "Visitation_2000":1105824,
+                "Visitation_2010":977778,
+                "Visitation_2020":916932}
         },
         {
             "type":"Feature","id":0,
@@ -52,14 +49,13 @@
                 "coordinates":[-80.907600292999973,36.569931691000079]},
             "properties":{
                 "Park_Name":"Blue Ridge PKWY",
-                "Visitation_2022":15711004,
-                "Visitation_2020":14099485,
-                "Visitation_2010":14517118,
-                "Visitation_2000":19153081,
-                "Visitation_1990":16854602,
-                "Visitation_1980":13415014,
+                "Visitation_1960":5503200,
                 "Visitation_1970":12789700,
-                "Visitation_1960":5503200}
+                "Visitation_1980":13415014,
+                "Visitation_1990":16854602,
+                "Visitation_2000":19153081,
+                "Visitation_2010":14517118,
+                "Visitation_2020":14099485}
         },
         {
             "type":"Feature","id":0,
@@ -67,14 +63,13 @@
                 "coordinates":[-112.18970880899997,37.611416894000058]},
             "properties":{
                 "Park_Name":"Bryce Canyon NP",
-                "Visitation_2022":2354660,
-                "Visitation_2020":1464655,
-                "Visitation_2010":1285492,
-                "Visitation_2000":1099275,
-                "Visitation_1990":862659,
-                "Visitation_1980":571541,
+                "Visitation_1960":272000,
                 "Visitation_1970":345900,
-                "Visitation_1960":272000}
+                "Visitation_1980":571541,
+                "Visitation_1990":862659,
+                "Visitation_2000":1099275,
+                "Visitation_2010":1285492,
+                "Visitation_2020":1464655}
         },
         {
             "type":"Feature","id":0,
@@ -82,14 +77,13 @@
                 "coordinates":[-109.90059074799996,38.22371679500003]},
             "properties":{
                 "Park_Name":"Canyonlands NP",
-                "Visitation_2022":779147,
-                "Visitation_2020":493914,
-                "Visitation_2010":435908,
-                "Visitation_2000":401558,
-                "Visitation_1990":276831,
-                "Visitation_1980":56505,
+                "Visitation_1960":0,
                 "Visitation_1970":33400,
-                "Visitation_1960":0}
+                "Visitation_1980":56505,
+                "Visitation_1990":276831,
+                "Visitation_2000":401558,
+                "Visitation_2010":435908,
+                "Visitation_2020":493914}
         },
         {
             "type":"Feature","id":0,
@@ -97,14 +91,13 @@
                 "coordinates":[-111.12781876499997,38.109459790000074]},
             "properties":{
                 "Park_Name":"Capitol Reef NP",
-                "Visitation_2022":1227608,
-                "Visitation_2020":981038,
-                "Visitation_2010":662661,
-                "Visitation_2000":612656,
-                "Visitation_1990":562477,
-                "Visitation_1980":342788,
+                "Visitation_1960":102500,
                 "Visitation_1970":225900,
-                "Visitation_1960":102500}
+                "Visitation_1980":342788,
+                "Visitation_1990":562477,
+                "Visitation_2000":612656,
+                "Visitation_2010":662661,
+                "Visitation_2020":981038}
         },
         {
             "type":"Feature","id":0,
@@ -112,13 +105,13 @@
                 "coordinates":[-113.48210020599998,43.172001678000072]},
             "properties":{
                 "Park_Name":"Craters of the Moon NM & PRES",
-                "Visitation_2022":237774,"Visitation_2020":250872,
-                "Visitation_2010":215698,
-                "Visitation_2000":211642,
-                "Visitation_1990":207766,
-                "Visitation_1980":162454,
+                "Visitation_1960":134300,
                 "Visitation_1970":223500,
-                "Visitation_1960":134300}
+                "Visitation_1980":162454,
+                "Visitation_1990":207766,
+                "Visitation_2000":211642,
+                "Visitation_2010":215698,
+                "Visitation_2020":250872}
         },
         {
             "type":"Feature","id":0,
@@ -126,14 +119,13 @@
                 "coordinates":[-83.604845157999989,36.628197990000047]},
             "properties":{
                 "Park_Name":"Cumberland Gap NHP",
-                "Visitation_2022":732916,
-                "Visitation_2020":735447,
-                "Visitation_2010":918746,
-                "Visitation_2000":1520386,
-                "Visitation_1990":897802,
-                "Visitation_1980":485666,
+                "Visitation_1960":135100,
                 "Visitation_1970":261500,
-                "Visitation_1960":135100}
+                "Visitation_1980":485666,
+                "Visitation_1990":897802,
+                "Visitation_2000":1520386,
+                "Visitation_2010":918746,
+                "Visitation_2020":735447}
         },
         {
             "type":"Feature","id":0,
@@ -141,14 +133,13 @@
                 "coordinates":[-112.03001559999996,36.102375875000064]},
             "properties":{
                 "Park_Name":"Grand Canyon NP",
-                "Visitation_2022":4732101,
-                "Visitation_2020":2897098,
-                "Visitation_2010":4388386,
-                "Visitation_2000":4460228,
-                "Visitation_1990":3776685,
-                "Visitation_1980":2304973,
+                "Visitation_1960":1187700,
                 "Visitation_1970":2258200,
-                "Visitation_1960":1187700}
+                "Visitation_1980":2304973,
+                "Visitation_1990":3776685,
+                "Visitation_2000":4460228,
+                "Visitation_2010":4388386,
+                "Visitation_2020":2897098}
         },
         {
             "type":"Feature","id":0,
@@ -156,14 +147,13 @@
                 "coordinates":[-110.67807551699997,43.801042839000047]},
             "properties":{
                 "Park_Name":"Grand Teton NP",
-                "Visitation_2022":2806223,
-                "Visitation_2020":3289638,
-                "Visitation_2010":2669374,
-                "Visitation_2000":2590624,
-                "Visitation_1990":1588253,
-                "Visitation_1980":2555627,
+                "Visitation_1960":1429900,
                 "Visitation_1970":3352500,
-                "Visitation_1960":1429900}
+                "Visitation_1980":2555627,
+                "Visitation_1990":1588253,
+                "Visitation_2000":2590624,
+                "Visitation_2010":2669374,
+                "Visitation_2020":3289638}
         },
         {
             "type":"Feature","id":0,
@@ -171,14 +161,13 @@
                 "coordinates":[-83.501067145999968,35.623516887000051]},
             "properties":{
                 "Park_Name":"Great Smoky Mountains NP",
-                "Visitation_2022":12937633,
-                "Visitation_2020":12095720,
-                "Visitation_2010":9463538,
-                "Visitation_2000":10175812,
-                "Visitation_1990":8151769,
-                "Visitation_1980":8440953,
+                "Visitation_1960":4528600,
                 "Visitation_1970":6778500,
-                "Visitation_1960":4528600}
+                "Visitation_1980":8440953,
+                "Visitation_1990":8151769,
+                "Visitation_2000":10175812,
+                "Visitation_2010":9463538,
+                "Visitation_2020":12095720}
         },
         {
             "type":"Feature","id":0,
@@ -186,14 +175,13 @@
                 "coordinates":[-121.72655728899997,46.880687157000068]},
             "properties":{
                 "Park_Name":"Mount Rainier NP",
-                "Visitation_2022":1622395,
-                "Visitation_2020":1160754,
-                "Visitation_2010":1191754,
-                "Visitation_2000":1344833,
-                "Visitation_1990":1327101,
-                "Visitation_1980":1268256,
+                "Visitation_1960":1538700,
                 "Visitation_1970":1925100,
-                "Visitation_1960":1538700}
+                "Visitation_1980":1268256,
+                "Visitation_1990":1327101,
+                "Visitation_2000":1344833,
+                "Visitation_2010":1191754,
+                "Visitation_2020":1160754}
         },
         {
             "type":"Feature","id":0,
@@ -201,14 +189,13 @@
                 "coordinates":[-123.60074654299996,47.819943162000072]},
             "properties":{
                 "Park_Name":"Olympic NP",
-                "Visitation_2022":2432972,
-                "Visitation_2020":2499177,
-                "Visitation_2010":2844563,
-                "Visitation_2000":3327722,
-                "Visitation_1990":2794903,
-                "Visitation_1980":2032418,
+                "Visitation_1960":1160400, 
                 "Visitation_1970":2283100,
-                "Visitation_1960":1160400}
+                "Visitation_1980":2032418,
+                "Visitation_1990":2794903,
+                "Visitation_2000":3327722,
+                "Visitation_2010":2844563,
+                "Visitation_2020":2499177}
         },
         {
             "type":"Feature","id":0,
@@ -216,14 +203,13 @@
                 "coordinates":[-109.79038433899996,35.014576225000042]},
             "properties":{
                 "Park_Name":"Petrified Forest NP",
-                "Visitation_2022":505209,
-                "Visitation_2020":384483,
-                "Visitation_2010":664725,
-                "Visitation_2000":605192,
-                "Visitation_1990":844592,
-                "Visitation_1980":683121,
+                "Visitation_1960":911500,
                 "Visitation_1970":1151400,
-                "Visitation_1960":911500}
+                "Visitation_1980":683121,
+                "Visitation_1990":844592,
+                "Visitation_2000":605192,
+                "Visitation_2010":664725,
+                "Visitation_2020":384483}
         },
         {
             "type":"Feature","id":0,
@@ -231,14 +217,13 @@
                 "coordinates":[-105.65862611599994,40.350731950000068]},
             "properties":{
                 "Park_Name":"Rocky Mountain NP",
-                "Visitation_2022":4300424,
-                "Visitation_2020":3305199,
-                "Visitation_2010":2955821,
-                "Visitation_2000":3185392,
-                "Visitation_1990":2647323,
-                "Visitation_1980":2641937,
+                "Visitation_1960":1532500, 
                 "Visitation_1970":2357900,
-                "Visitation_1960":1532500}
+                "Visitation_1980":2641937,
+                "Visitation_1990":2647323,
+                "Visitation_2000":3185392,
+                "Visitation_2010":2955821,
+                "Visitation_2020":3305199}
         },
         {
             "type":"Feature","id":0,
@@ -246,14 +231,13 @@
                 "coordinates":[-111.17854120299995,32.312098998000067]},
             "properties":{
                 "Park_Name":"Saguaro NP",
-                "Visitation_2022":908194,
-                "Visitation_2020":762226,
-                "Visitation_2010":717614,
-                "Visitation_2000":765195,
-                "Visitation_1990":702328,
-                "Visitation_1980":611317,
+                "Visitation_1960":141000, 
                 "Visitation_1970":351800,
-                "Visitation_1960":141000}
+                "Visitation_1980":611317,
+                "Visitation_1990":702328,
+                "Visitation_2000":765195,
+                "Visitation_2010":717614,
+                "Visitation_2020":762226}
         },
         {
             "type":"Feature","id":0,
@@ -261,14 +245,13 @@
                 "coordinates":[-118.57476515199994,36.497159320000037]},
             "properties":{
                 "Park_Name":"Sequoia NP",
-                "Visitation_2022":1153198,
-                "Visitation_2020":796086,
-                "Visitation_2010":1002979,
-                "Visitation_2000":838947,
-                "Visitation_1990":1063538,
-                "Visitation_1980":862397,
+                "Visitation_1960":610800,
                 "Visitation_1970":875700,
-                "Visitation_1960":610800}
+                "Visitation_1980":862397,
+                "Visitation_1990":1063538,
+                "Visitation_2000":838947,
+                "Visitation_2010":1002979,
+                "Visitation_2020":796086}
         },
         {
             "type":"Feature","id":0,
@@ -276,14 +259,13 @@
                 "coordinates":[-110.53602975299998,44.468309710000028]},
             "properties":{
                 "Park_Name":"Yellowstone NP",
-                "Visitation_2022":3290242,
-                "Visitation_2020":3806306,
-                "Visitation_2010":3640185,
-                "Visitation_2000":2838233,
-                "Visitation_1990":2823572,
-                "Visitation_1980":2000269,
+                "Visitation_1960":1443300,
                 "Visitation_1970":2297300,
-                "Visitation_1960":1443300}
+                "Visitation_1980":2000269,
+                "Visitation_1990":2823572,
+                "Visitation_2000":2838233,
+                "Visitation_2010":3640185,
+                "Visitation_2020":3806306}
         },
         {
             "type":"Feature","id":0,
@@ -291,14 +273,13 @@
                 "coordinates":[-113.02400887399995,37.308985860000064]},
             "properties":{
                 "Park_Name":"Zion NP",
-                "Visitation_2022":4692417,
-                "Visitation_2020":3591254,
-                "Visitation_2010":2665972,
-                "Visitation_2000":2432348,
-                "Visitation_1990":2102400,
-                "Visitation_1980":1123846,
+                "Visitation_1960":575800,
                 "Visitation_1970":903600,
-                "Visitation_1960":575800}
+                "Visitation_1980":1123846,
+                "Visitation_1990":2102400,
+                "Visitation_2000":2432348,
+                "Visitation_2010":2665972,
+                "Visitation_2020":3591254}
         }
     ]
 }
