@@ -1,35 +1,66 @@
 /*Add CSS styles here*/
 
-#map { 
-    height: 500px; 
+#map {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+}
 
-    }
+#text {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+}
 
-    #panel {  
-        width: 25%;  
-        padding: 20px;  
-        display: inline-block;  
-        vertical-align: top;  
-        text-align: center;  
-        line-height: 42px;  
-    }  
-    
-    .range-slider {  
-        width: 55%;  
-    }  
-    
-    .step {  
-        width: 20%;  
-    }  
-    
-    .step img {  
-        width: 100%;  
-    }  
+#sources {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+}
+
+
+.legend-control-container {  
+    width: 100px;  
+    height: 100px;  
+    background-color: rgba(255,255,255,0.8);  
+    padding: 10px;  
+    line-height: 45px;  
+    text-align: center;  
+    border: solid gray 1px;  
+}  
+
+
+.sequence-control-container {  
+    width: 350px;  
+    height: 30px;  
+    background-color: rgba(255,255,255,0.8);  
+    padding: 10px;  
+    line-height: 45px;  
+    text-align: center;  
+    border: solid gray 1px;  
+}  
+
+.range-slider {  
+    width: 250px;  
+}  
+
+.step {  
+    width: 40px;  
+}  
+
+.step img {  
+    width: 100%;  
+    height: auto;  
+} 
+
     
     #forward {  
-        float: right;  
+        float: inline;  
     }  
     
     #reverse {  
         float: left;  
     }
+
