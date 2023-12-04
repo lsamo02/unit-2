@@ -43,28 +43,39 @@ function calculateMinValue(data){
 }
 
 function calcStats(data){
+    console.log('check me', data); // Check if data is defined and has the correct structure
+
     //create empty array to store all data values
     var allValues = [];
+
     //loop through each park
     for(var park of data.features){
+        console.log(park); // Check if park is defined and has the correct structure
+
         //loop through each year
         for(var year = 1960; year <= 2020; year+=10){
-              //get population for current year
-              var value = park.properties["Visitation_"+ String(year)];
-              if(value !== 0){
+            //get population for current year
+            var value = park.properties["Visitation_"+ String(year)];
+            console.log(value); // Check if value is a number and not NaN
+
+            if(value !== 0){
                 allValues.push(value);
-              }
-              
+            }
         }
     }
+
+    console.log(allValues); // Check if allValues is correctly populated
+
     //get min, max, mean stats for our array
     dataStats.min = Math.min(...allValues);
     dataStats.max = Math.max(...allValues);
+
     //calculate meanValue
     var sum = allValues.reduce(function(a, b){return a+b;});
     dataStats.mean = sum/ allValues.length;
 
-}   
+    console.log('datastats',dataStats); // Check if dataStats is correctly populated
+}     
 
 
 //calculate the radius of each proportional symbol
@@ -147,27 +158,45 @@ function createLegend(attributes){
             container.innerHTML = '<p class="temporalLegend"><b>Visitation in <span class="year">1960</span></p>';
             
             //Step 1: start attribute legend svg string
-            var svg = '<svg id="attribute-legend" width="160px" height="60px">';
+            var svg = '<svg id="attribute-legend" width="200px" height="260px">';
 
             //array of circle names to base loop on
             var circles = ["max", "mean", "min"];
 
-    
-            //Step 2: loop to add each circle and text to svg string
-            for (var i=0; i < circles.length; i++){
+            console.log(circles); // Check the value of the circles array
 
+
+            console.log(attributes); // Check the value of attributes array
+            
+        // Assuming attributes is an array of objects and 'value' is the property you're interested in
+            var values = attributes.map(a => a.value); // Replace 'value' with your actual property name
+
+            // Calculate max, mean, and min
+            var max = Math.max(...values);
+            var min = Math.min(...values);
+            var mean = values.reduce((a, b) => a + b, 0) / values.length;
+
+          
+
+            // Now your loop
+            for (var i=0; i < circles.length; i++){
+        
                 //Step 3: assign the r and cy attributes            
                 var radius = calcPropRadius(dataStats[circles[i]]);           
                 var cy = 59 - radius;    
-    
+            
                 //circle string            
                 svg += '<circle class="legend-circle" id="' + circles[i] + '" r="' + radius + '"cy="' + cy + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="65"/>';
-    
+
+                var cx = 320 / 2; // Half of the new width
+                svg += '<circle class="legend-circle" id="' + circles[i] + '" r="' + radius + '"cy="' + cy + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="' + cx + '"/>';
+                
                 //evenly space out labels            
                 var textY = i * 20 + 20;            
-    
+
                 //text string            
                 svg += '<text id="' + circles[i] + '-text" x="65" y="' + textY + '">' + Math.round(dataStats[circles[i]]*100)/100 + " million" + '</text>';
+                
             };
     
             //close svg string
@@ -176,7 +205,11 @@ function createLegend(attributes){
             //add attribute legend svg to container
             container.insertAdjacentHTML('beforeend',svg);
 
-
+            console.log(dataStats); // Check if dataStats is defined and has the correct structure
+            console.log(circles[i]); // Check the value of circles[i]
+            console.log(dataStats[circles[i]]); // Check the value of dataStats[circles[i]]
+            console.log(calcPropRadius(dataStats[circles[i]])); // Check the return value of calcPropRadius function
+            
             return container;
         }
     });
@@ -250,6 +283,7 @@ function createSequenceControls(attributes){
             updatePropSymbols(attributes[index]); 
           
         })
+        return attributes;
 
 
     })
@@ -315,15 +349,16 @@ function getData(map){
         })
         .then(function(json){
             var attributes = processData(json); 
+            calcStats(json); // Call calcStats here
             minValue = calculateMinValue(json);
             createPropSymbols(json, attributes);
             createSequenceControls(attributes);
+            console.log(attributes);
             createLegend(attributes);
 
     
         })
-        //calling our renamed function  
-        calcStats(response);  
+       
 };
 
 document.addEventListener('DOMContentLoaded',createMap)
